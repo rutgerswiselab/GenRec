@@ -25,4 +25,6 @@ Large Language Model for Generative Recommendation
         --load_8bit \
         --base_model 'decapoda-research/llama-7b-hf' \
         --lora_weights './checkpoint/movies'
-    
+
+
+This project is implemented based on alpaca-lora (https://github.com/tloen/alpaca-lora)
