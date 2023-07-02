@@ -107,9 +107,7 @@ def main(
             )
         
         s = []
-        #s = generation_output.sequences[0]
-        #beam = generation_output.sequences[1]
-        #beam2 = generation_output.sequences[2]
+        
         for i in range(num_beams):
             temp = generation_output.sequences[i]
             s.append(tokenizer.decode(temp,skip_special_tokens=True))
@@ -119,9 +117,7 @@ def main(
         for cur in s:
             output += cur.split("### Response:")[1].strip() + '\n'
         
-        #output = tokenizer.decode(s) + '\n' + tokenizer.decode(beam) + '\n' + tokenizer.decode(beam2)
-        #output = tokenizer.decode(s)
-        #return output.split("### Response:")[1].strip()
+
         
         return output
 
