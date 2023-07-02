@@ -31,7 +31,7 @@ except:  # noqa: E722
 
 load_8bit: bool = False,
 base_model = '/common/users/jj635/llama/llama-7b/'
-lora_weights = '/common/users/jj635/llama/adapter/toys'
+lora_weights = './checkpoint/movies'
 
 
 """
@@ -136,7 +136,7 @@ generation_config = GenerationConfig(
     num_beams=10,
     num_return_sequences=10,
 )
-data = load_dataset('./data_json/testset/',data_files="toys_test.json")
+data = load_dataset('./data/testset/',data_files="toys_test.json")
 print(data)
 
 hit5 = 0
