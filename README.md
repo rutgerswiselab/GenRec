@@ -31,10 +31,10 @@ This project is implemented based on alpaca-lora (https://github.com/tloen/alpac
 ## Citation
 
 ```
-@article{ji2023genrec,
+@article{ji2024genrec,
   title={GenRec: Large Language Model for Generative Recommendation},
   author={Jianchao Ji, Zelong Li, Shuyuan Xu, Wenyue Hua, Yingqiang Ge, Juntao Tan and Yongfeng Zhang},
-  journal={arXiv:2307.00457},
-  year={2023}
+  journal={ECIR},
+  year={2024}
 }
 ```
